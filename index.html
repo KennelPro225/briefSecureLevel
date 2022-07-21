@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./styles/style.css" />
+  <link rel="stylesheet" href="./styles/styleResponive.css">
+  <title>Secure</title>
+</head>
+
+<body>
+  <section>
+    <main>
+      <div class="left-side">
+        <div class="left-item">
+          <div class="circle1">01</div>
+          <h3>Personal Information</h3>
+        </div>
+        <div class="left-item">
+          <div class="circle">02</div>
+          <h3>Connect Bank Account</h3>
+        </div>
+        <div class="left-item">
+          <div class="circle">03</div>
+          <h3>set financial goals</h3>
+        </div>
+      </div>
+      <div class="right-side">
+        <form action="">
+          <div class="text-form">
+            <div>
+              <h1 class="form-title">Personal Information</h1>
+            </div>
+            <div>
+              <h5 class="text-inform">
+                Please enter your information and proceed to the next step so
+                we can build your accounts.
+              </h5>
+            </div>
+          </div>
+
+          <div class="id-information">
+            <fieldset>
+              <legend>First Name</legend>
+              <input type="text" name="firstName" id="firstName" placeholder="First Name" oninput="handleInput()" />
+            </fieldset>
+            <fieldset>
+              <legend>Last Name</legend>
+              <input type="text" name="lastName" id="lastName" placeholder="Last Name" />
+            </fieldset>
+          </div>
+          <div class="contact">
+            <fieldset>
+              <legend>Email</legend>
+              <input type="email" name="email" id="email" placeholder="example@email.com" />
+            </fieldset>
+
+            <fieldset class="phone-fieldset">
+              <legend>Phone Number</legend>
+              <input type="text" name="phoneNumber" id="phoneNumber" placeholder="+1 888-999-7777" />
+            </fieldset>
+          </div>
+          <div class="birth">
+            <h2>Birth Date:</h2>
+            <div class="date">
+              <div id="month">
+                <input type="number" name="month" id="mois" placeholder="MM" min="1" max="12">
+              </div>
+              <div id="day">
+                <input type="number" name="day" id="jour" placeholder="DD" min="1" max="31">
+              </div>
+              <div id="year">
+                <input type="number" name="year" id="annee" placeholder="YYYY" min="1970" max="2022">
+              </div>
+            </div>
+          </div>
+          <div class="security">
+            <input type="text" id="ssn" name="ssn" placeholder="SSN" />
+          </div>
+          <div class="bouton">
+            <input type="submit" value=" " />
+          </div>
+        </form>
+      </div>
+    </main>
+  </section>
+</body>
+
+</html>

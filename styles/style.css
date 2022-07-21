@@ -1,0 +1,548 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  section {
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(
+      109.31deg,
+      #6b31e5 3.9%,
+      #2f82cf 61.2%,
+      #2f82cf 68.35%,
+      #92bde6 76.79%,
+      #4bc7b0 83.39%
+    );
+  }
+
+  main {
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 100vh;
+    margin: 0 auto;
+  }
+
+  .left-side {
+    border: none;
+    border-top-left-radius: 0.6rem;
+    border-bottom-left-radius: 0.6rem;
+    background: #3a2e55;
+    width: 25vw;
+    height: 95vh;
+  }
+
+  .right-side {
+    border: none;
+    border-top-right-radius: 0.6rem;
+    border-bottom-right-radius: 0.6rem;
+    background: #fff;
+    width: 42vw;
+    height: 95vh;
+  }
+
+  .left-item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 0.5px solid rgb(155, 152, 152);
+    width: 100%;
+    height: 10%;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+  }
+
+  .circle {
+    border-radius: 100%;
+    font-weight: bold;
+    font-size: 1.5vw;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px solid transparent;
+    transition: 0.6s transform;
+    cursor: pointer;
+    color: rgb(128, 128, 190);
+    background: rgb(243, 239, 239);
+    align-self: center;
+  }
+
+  .circle1 {
+    border-radius: 100%;
+    font-weight: bold;
+    font-size: 1.5vw;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px solid transparent;
+    transition: 0.6s transform;
+    cursor: pointer;
+    color: #fff;
+    align-self: center;
+    background-color: rgb(21, 161, 28);
+  }
+
+  h3 {
+    color: white;
+    text-transform: capitalize;
+    font-weight: normal;
+    width: 175px;
+    height: 8.5vh;
+    align-items: center;
+    display: flex;
+    font-size: 17px;
+  }
+
+  .text-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  div .text-inform {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.05vw;
+    text-align: center;
+    width: 67%;
+    margin: 1vh 7vw;
+    font-weight: 600;
+    color: rgba(128, 122, 122, 1);
+  }
+
+  div .form-title {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 2vh 0vw;
+  }
+
+  fieldset {
+    border: 0.5px solid rgba(191, 181, 181, 1);
+    border-radius: 0.3rem;
+    width: fit-content;
+  }
+
+  legend {
+    color: rgb(150, 145, 145);
+    margin-left: 1.5vw;
+    font-weight: bold;
+    font-size: 0.8rem;
+  }
+
+  #firstName,
+  #lastName {
+    width: 16vw;
+    height: 6.5vh;
+    border: none;
+    border-radius: 0.5rem;
+    text-indent: 2vw;
+  }
+
+  #firstName:focus,
+  #lastName:focus,
+  #email:focus,
+  #phoneNumber:focus,
+  #day:focus,
+  #year:focus,
+  #month:focus,
+  #ssn {
+    outline: none;
+  }
+
+  #firstName::placeholder,
+  #lastName::placeholder,
+  #phoneNumber::placeholder,
+  #email::placeholder,
+  #ssn::placeholder {
+    color: rgba(191, 181, 181, 1);
+  }
+
+  .id-information {
+    margin-top: 2vh;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .contact,
+  .security {
+    margin-top: 3vh;
+    margin-left: 3.3vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  #phoneNumber,
+  #email {
+    width: 35.4vw;
+    height: 6.5vh;
+    border: none;
+    border-radius: 0.5rem;
+    text-indent: 2vw;
+  }
+
+  #ssn {
+    width: 35.4vw;
+    height: 7vh;
+    border: none;
+    border-radius: 0.3rem;
+    text-indent: 2vw;
+    border: 0.5px solid rgba(191, 181, 181, 1);
+  }
+
+  .phone-fieldset {
+    margin-top: 2vh;
+  }
+
+  .birth h2 {
+    margin-top: 4vh;
+    margin-left: 3.3vw;
+    font-size: 1rem;
+    color: rgb(150, 145, 145);
+  }
+
+  .date {
+    margin-top: 3vh;
+    margin-right: 7vw;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  #day,
+  #year,
+  #month {
+    border-radius: 0.2rem;
+    text-indent: 1.5vw;
+    width: 7vw;
+    height: 6.5vh;
+    border: 0.5px solid rgba(191, 181, 181, 1);
+    background-image: url("calendar.png");
+    background-position: right;
+    background-size: 15px;
+    background-repeat: no-repeat;
+    /* padding-left: 1vw; */
+    display: flex;
+    align-items: center;
+    color: rgba(191, 181, 181, 1);
+  }
+
+  .bouton {
+    margin-top: 4vh;
+    margin-left: 2.5vw;
+    width: 85%;
+    border: none;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  input[type="submit"] {
+    background: rgb(21, 161, 28);
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 100%;
+    cursor: pointer;
+  }
+
+  input[type="number"] {
+    border: none;
+    width: 92px;
+    height: 37px;
+    background-image: url("calendar.png");
+    background-position: right;
+    background-size: 15px;
+    background-repeat: no-repeat;
+    text-indent: 3px;
+  }
+
+  input[type="number"]:focus {
+    outline: none;
+  }
+}
+
+/* ...............................................................................................................................................
+........................................................Taille de l'écran; [1280,++++++].................................................................................
+............................................................................................................................................... */
+
+@media screen and (min-width: 1280px) {
+  section {
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(
+      109.31deg,
+      #6b31e5 3.9%,
+      #2f82cf 61.2%,
+      #2f82cf 68.35%,
+      #92bde6 76.79%,
+      #4bc7b0 83.39%
+    );
+  }
+
+  main {
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 100vh;
+    margin: 0 auto;
+  }
+
+  .left-side {
+    border: none;
+    border-top-left-radius: 0.6rem;
+    border-bottom-left-radius: 0.6rem;
+    background: #3a2e55;
+    width: 25vw;
+    height: 95vh;
+  }
+
+  .right-side {
+    border: none;
+    border-top-right-radius: 0.6rem;
+    border-bottom-right-radius: 0.6rem;
+    background: #fff;
+    width: 42vw;
+    height: 95vh;
+  }
+
+  .left-item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 0.5px solid rgb(155, 152, 152);
+    width: 100%;
+    height: 15%;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+  }
+
+  .circle {
+    border-radius: 100%;
+    font-weight: bold;
+    font-size: 1.5vw;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px solid transparent;
+    transition: 0.6s transform;
+    cursor: pointer;
+    color: rgb(128, 128, 190);
+    background: rgb(243, 239, 239);
+    align-self: center;
+  }
+
+  .circle1 {
+    border-radius: 100%;
+    font-weight: bold;
+    font-size: 1.5vw;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px solid transparent;
+    transition: 0.6s transform;
+    cursor: pointer;
+    color: #fff;
+    align-self: center;
+    background-color: rgb(21, 161, 28);
+  }
+
+  h3 {
+    color: white;
+    text-transform: capitalize;
+    font-weight: normal;
+    width: 200px;
+    height: 8.5vh;
+    align-items: center;
+    display: flex;
+  }
+
+  .text-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  div .text-inform {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.05vw;
+    text-align: center;
+    width: 67%;
+    margin: 1vh 7vw;
+    font-weight: 600;
+    color: rgba(128, 122, 122, 1);
+  }
+
+  div .form-title {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 2vh 0vw;
+  }
+
+  fieldset {
+    border: 0.5px solid rgba(191, 181, 181, 1);
+    border-radius: 0.3rem;
+    width: fit-content;
+  }
+
+  legend {
+    color: rgb(150, 145, 145);
+    margin-left: 1.5vw;
+    font-weight: bold;
+    font-size: 0.8rem;
+  }
+
+  #firstName,
+  #lastName {
+    width: 16vw;
+    height: 6.5vh;
+    border: none;
+    border-radius: 0.5rem;
+    text-indent: 2vw;
+  }
+
+  #firstName:focus,
+  #lastName:focus,
+  #email:focus,
+  #phoneNumber:focus,
+  #day:focus,
+  #year:focus,
+  #month:focus,
+  #ssn {
+    outline: none;
+  }
+
+  #firstName::placeholder,
+  #lastName::placeholder,
+  #phoneNumber::placeholder,
+  #email::placeholder,
+  #ssn::placeholder,
+  input[type="number"]::placeholder {
+    color: rgba(191, 181, 181, 1);
+  }
+
+  .id-information {
+    margin-top: 2vh;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .contact,
+  .security {
+    margin-top: 3vh;
+    margin-left: 3.3vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  #phoneNumber,
+  #email {
+    width: 35.4vw;
+    height: 6.5vh;
+    border: none;
+    border-radius: 0.5rem;
+    text-indent: 2vw;
+  }
+
+  #ssn {
+    width: 35.4vw;
+    height: 7vh;
+    border: none;
+    border-radius: 0.3rem;
+    text-indent: 2vw;
+    border: 0.5px solid rgba(191, 181, 181, 1);
+  }
+
+  .phone-fieldset {
+    margin-top: 2vh;
+  }
+
+  .birth h2 {
+    margin-top: 4vh;
+    margin-left: 3.3vw;
+    font-size: 1rem;
+    color: rgb(150, 145, 145);
+  }
+
+  .date {
+    margin-top: 3vh;
+    margin-right: 7vw;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  #day,
+  #year,
+  #month {
+    border-radius: 0.2rem;
+    text-indent: 1.5vw;
+    width: 7vw;
+    height: 6.5vh;
+    border: 0.5px solid rgba(191, 181, 181, 1);
+    /* padding-left: 1vw; */
+    display: flex;
+    align-items: center;
+    color: rgba(191, 181, 181, 1);
+  }
+
+  .bouton {
+    margin-top: 4vh;
+    margin-left: 2.5vw;
+    width: 85%;
+    border: none;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  input[type="submit"] {
+    background: rgb(21, 161, 28);
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 100%;
+    cursor: pointer;
+  }
+
+  select {
+    width: inherit;
+    border: none;
+  }
+
+  input[type="number"] {
+    border: none;
+    width: 92px;
+    height: 37px;
+    background-image: url("calendar.png");
+    background-position: right;
+    background-size: 15px;
+    background-repeat: no-repeat;
+    text-indent: 3px;
+  }
+
+  input[type="number"]:focus {
+    outline: none;
+  }
+}

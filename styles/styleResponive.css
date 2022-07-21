@@ -1,0 +1,1668 @@
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  section {
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(
+      109.31deg,
+      #6b31e5 3.9%,
+      #2f82cf 61.2%,
+      #2f82cf 68.35%,
+      #92bde6 76.79%,
+      #4bc7b0 83.39%
+    );
+  }
+
+  main {
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 315px;
+    margin: 0 auto;
+  }
+
+  .left-side {
+    display: flex;
+    border: none;
+    border-top-left-radius: 0.4rem;
+    border-top-right-radius: 0.4rem;
+    border-bottom-left-radius: 0;
+    background: #3a2e55;
+    width: 300px;
+  }
+
+  .right-side {
+    border: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0.4rem;
+    border-bottom-left-radius: 0.4rem;
+    background: #fff;
+    width: 300px;
+    padding-bottom: 10px;
+  }
+
+  .left-item {
+    margin: 0 3px;
+    justify-content: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 0.1px solid rgb(155, 152, 152);
+    width: 100%;
+    height: 35px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+  }
+
+  .circle {
+    margin: 0;
+    border-radius: 100%;
+    font-weight: bold;
+    font-size: 7px;
+    width: 13px;
+    height: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    transition: 0.6s transform;
+    cursor: pointer;
+    color: rgb(128, 128, 190);
+    background: rgb(243, 239, 239);
+    align-self: center;
+  }
+
+  .circle1 {
+    margin: 0;
+    padding: 0;
+    border-radius: 100%;
+    font-weight: bold;
+    font-size: 7px;
+    width: 13px;
+    height: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    transition: 0.6s transform;
+    cursor: pointer;
+    color: #fff;
+    align-self: center;
+    background-color: rgb(21, 161, 28);
+  }
+
+  h3 {
+    font-size: 7px;
+    color: white;
+    text-transform: capitalize;
+    font-weight: normal;
+    width: 75px;
+    height: 10px;
+    align-items: center;
+    display: flex;
+  }
+
+  .text-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  div .text-inform {
+    margin-top: 10px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 9px;
+    text-align: center;
+    width: 70%;
+    margin: 1px auto;
+    font-weight: 600;
+    color: rgba(128, 122, 122, 1);
+  }
+
+  div .form-title {
+    margin-top: 8px;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+  }
+
+  fieldset {
+    border: 0.5px solid rgba(191, 181, 181, 1);
+    border-radius: 2.5px;
+    width: fit-content;
+    margin-top: 3px;
+  }
+
+  legend {
+    color: rgb(150, 145, 145);
+    margin-left: 5px;
+    font-weight: bold;
+    font-size: 8px;
+  }
+
+  #firstName,
+  #lastName {
+    width: 235px;
+    height: 20px;
+    border: none;
+    text-indent: 5px;
+  }
+
+  #firstName:focus,
+  #lastName:focus,
+  #email:focus,
+  #phoneNumber:focus,
+  #day:focus,
+  #year:focus,
+  #month:focus,
+  #ssn {
+    outline: none;
+  }
+
+  #firstName::placeholder,
+  #lastName::placeholder,
+  #phoneNumber::placeholder,
+  #email::placeholder,
+  #ssn::placeholder,
+  input[type="number"]::placeholder {
+    color: rgba(191, 181, 181, 1);
+    font-size: 8px;
+  }
+
+  .id-information {
+    margin-top: 10px;
+    margin-left: 32px;
+  }
+
+  .contact,
+  .security {
+    margin-top: 10px;
+    margin-left: 32px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  #phoneNumber,
+  #email {
+    width: 235px;
+    height: 20px;
+    border: none;
+    border-radius: 0.2rem;
+    text-indent: 5px;
+  }
+
+  #ssn {
+    width: 235px;
+    height: 25px;
+    border: none;
+    border-radius: 0.2rem;
+    text-indent: 2vw;
+    border: 0.5px solid rgba(191, 181, 181, 1);
+  }
+
+  .phone-fieldset {
+    margin-top: 8px;
+  }
+
+  .birth h2 {
+    margin-top: 8px;
+    margin-left: 32px;
+    font-size: 10px;
+    color: rgb(150, 145, 145);
+  }
+
+  .date {
+    margin-top: 8px;
+    margin-right: 40px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  #day,
+  #year,
+  #month {
+    font-size: 8px;
+    border-radius: 0.2rem;
+    text-indent: 5px;
+    width: 42px;
+    height: 20px;
+    border: 0.5px solid rgba(191, 181, 181, 1);
+    /* padding-left: 1vw; */
+    display: flex;
+    align-items: center;
+    color: rgba(191, 181, 181, 1);
+  }
+
+  .bouton {
+    margin-top: 7px;
+    margin-left: 2.1vw;
+    width: 85%;
+    border: none;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  input[type="submit"] {
+    background: rgb(21, 161, 28);
+    width: 25px;
+    height: 25px;
+    border: none;
+    border-radius: 100%;
+    cursor: pointer;
+  }
+
+  input[type="number"] {
+    border: none;
+    width: 40px;
+    height: 20px;
+    background-image: url("calendar.png");
+    background-position: right;
+    background-size: 10px;
+    background-repeat: no-repeat;
+    text-indent: 3px;
+    border-radius: 0.2rem;
+  }
+
+  input[type="number"]:focus {
+    outline: none;
+  }
+}
+
+/* ...............................................................................................................................................
+........................................................Taille de l'écran; [480,600].................................................................................
+............................................................................................................................................... */
+
+@media screen and (min-width: 481px) and (max-width: 600px) {
+  section {
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(
+      109.31deg,
+      #6b31e5 3.9%,
+      #2f82cf 61.2%,
+      #2f82cf 68.35%,
+      #92bde6 76.79%,
+      #4bc7b0 83.39%
+    );
+  }
+
+  main {
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 450px;
+    margin: 0 auto;
+  }
+
+  .left-side {
+    display: flex;
+    border: none;
+    border-top-left-radius: 0.4rem;
+    border-top-right-radius: 0.4rem;
+    border-bottom-left-radius: 0;
+    background: #3a2e55;
+    width: 400px;
+  }
+
+  .right-side {
+    border: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0.4rem;
+    border-bottom-left-radius: 0.4rem;
+    background: #fff;
+    width: 400px;
+    padding-bottom: 10px;
+  }
+
+  .left-item {
+    margin: 0 3px;
+    justify-content: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 0.1px solid rgb(155, 152, 152);
+    width: 100%;
+    height: 35px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+  }
+
+  .circle {
+    margin: 0;
+    border-radius: 100%;
+    font-weight: bold;
+    font-size: 7px;
+    width: 13px;
+    height: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    transition: 0.6s transform;
+    cursor: pointer;
+    color: rgb(128, 128, 190);
+    background: rgb(243, 239, 239);
+    align-self: center;
+  }
+
+  .circle1 {
+    margin: 0;
+    padding: 0;
+    border-radius: 100%;
+    font-weight: bold;
+    font-size: 7px;
+    width: 13px;
+    height: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    transition: 0.6s transform;
+    cursor: pointer;
+    color: #fff;
+    align-self: center;
+    background-color: rgb(21, 161, 28);
+  }
+
+  h3 {
+    font-size: 8px;
+    color: white;
+    text-transform: capitalize;
+    font-weight: normal;
+    width: 90px;
+    height: 10px;
+    align-items: center;
+    display: flex;
+  }
+
+  .text-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  div .text-inform {
+    margin-top: 10px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 7px;
+    text-align: center;
+    width: 67%;
+    margin: 1px auto;
+    font-weight: 600;
+    color: rgba(128, 122, 122, 1);
+  }
+
+  div .form-title {
+    margin-top: 8px;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+  }
+
+  fieldset {
+    border: 0.5px solid rgba(191, 181, 181, 1);
+    border-radius: 2.5px;
+    width: fit-content;
+    margin-top: 3px;
+  }
+
+  legend {
+    color: rgb(150, 145, 145);
+    margin-left: 5px;
+    font-weight: bold;
+    font-size: 8px;
+  }
+
+  #firstName,
+  #lastName {
+    width: 235px;
+    height: 20px;
+    border: none;
+    text-indent: 5px;
+  }
+
+  #firstName:focus,
+  #lastName:focus,
+  #email:focus,
+  #phoneNumber:focus,
+  #day:focus,
+  #year:focus,
+  #month:focus,
+  #ssn {
+    outline: none;
+  }
+
+  #firstName::placeholder,
+  #lastName::placeholder,
+  #phoneNumber::placeholder,
+  #email::placeholder,
+  #ssn::placeholder,
+  input[type="number"]::placeholder {
+    color: rgba(191, 181, 181, 1);
+    font-size: 8px;
+  }
+
+  .id-information {
+    margin-top: 10px;
+    margin-left: 80px;
+  }
+
+  .contact,
+  .security {
+    margin-top: 10px;
+    margin-left: 80px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  #phoneNumber,
+  #email {
+    width: 235px;
+    height: 20px;
+    border: none;
+    border-radius: 0.2rem;
+    text-indent: 5px;
+  }
+
+  #ssn {
+    width: 235px;
+    height: 25px;
+    border: none;
+    border-radius: 0.2rem;
+    text-indent: 2vw;
+    border: 0.5px solid rgba(191, 181, 181, 1);
+  }
+
+  .phone-fieldset {
+    margin-top: 8px;
+  }
+
+  .birth h2 {
+    margin-top: 8px;
+    margin-left: 80px;
+    font-size: 10px;
+    color: rgb(150, 145, 145);
+  }
+
+  .date {
+    margin-top: 8px;
+    margin-left: 80px;
+    display: flex;
+    gap: 23px;
+  }
+
+  #day,
+  #year,
+  #month {
+    font-size: 8px;
+    border-radius: 0.2rem;
+    text-indent: 5px;
+    width: 39px;
+    height: 20px;
+    border: 0.2px solid rgba(191, 181, 181, 1);
+    /* padding-left: 1vw; */
+    display: flex;
+    align-items: center;
+    color: rgba(191, 181, 181, 1);
+  }
+
+  .bouton {
+    margin-top: 7px;
+    margin-left: 2.1vw;
+    width: 85%;
+    border: none;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  input[type="submit"] {
+    background: rgb(21, 161, 28);
+    width: 25px;
+    height: 25px;
+    border: none;
+    border-radius: 100%;
+    cursor: pointer;
+  }
+
+  input[type="number"] {
+    border: none;
+    border-radius: 0.2rem;
+    width: 39px;
+    height: 20px;
+    background-image: url("calendar.png");
+    background-position: right;
+    background-size: 8px;
+    background-repeat: no-repeat;
+    text-indent: 3px;
+    border-radius: 0.2rem;
+  }
+
+  input[type="number"]:focus {
+    outline: none;
+  }
+}
+
+/* ...............................................................................................................................................
+........................................................Taille de l'écran; [531,688].....................................................................................
+............................................................................................................................................... */
+
+@media screen and (min-width: 601px) and (max-width: 688px) {
+  section {
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(
+      109.31deg,
+      #6b31e5 3.9%,
+      #2f82cf 61.2%,
+      #2f82cf 68.35%,
+      #92bde6 76.79%,
+      #4bc7b0 83.39%
+    );
+  }
+
+  main {
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    margin: 0 auto;
+  }
+
+  .left-side {
+    display: flex;
+    border: none;
+    border-top-left-radius: 0.4rem;
+    border-top-right-radius: 0.4rem;
+    border-bottom-left-radius: 0;
+    background: #3a2e55;
+    width: 380px;
+  }
+
+  .right-side {
+    border: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0.4rem;
+    border-bottom-left-radius: 0.4rem;
+    background: #fff;
+    width: 380px;
+    padding-bottom: 15px;
+  }
+
+  .left-item {
+    margin: 0 3px;
+    justify-content: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 0.1px solid rgb(155, 152, 152);
+    width: 100%;
+    height: 35px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+  }
+
+  .circle {
+    margin: 0;
+    border-radius: 100%;
+    font-weight: bold;
+    font-size: 7px;
+    width: 13px;
+    height: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    transition: 0.6s transform;
+    cursor: pointer;
+    color: rgb(128, 128, 190);
+    background: rgb(243, 239, 239);
+    align-self: center;
+  }
+
+  .circle1 {
+    margin: 0;
+    padding: 0;
+    border-radius: 100%;
+    font-weight: bold;
+    font-size: 7px;
+    width: 13px;
+    height: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    transition: 0.6s transform;
+    cursor: pointer;
+    color: #fff;
+    align-self: center;
+    background-color: rgb(21, 161, 28);
+  }
+
+  h3 {
+    font-size: 8px;
+    color: white;
+    text-transform: capitalize;
+    font-weight: normal;
+    width: 90px;
+    height: 10px;
+    align-items: center;
+    display: flex;
+  }
+
+  .text-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  div .text-inform {
+    margin-top: 10px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 10px;
+    text-align: center;
+    width: 67%;
+    margin: 1px auto;
+    font-weight: 600;
+    color: rgba(128, 122, 122, 1);
+  }
+
+  div .form-title {
+    margin-top: 8px;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+  }
+
+  fieldset {
+    border: 0.5px solid rgba(191, 181, 181, 1);
+    border-radius: 2.5px;
+    width: fit-content;
+    margin-top: 3px;
+  }
+
+  legend {
+    color: rgb(150, 145, 145);
+    margin-left: 5px;
+    font-weight: bold;
+    font-size: 8px;
+  }
+
+  #firstName,
+  #lastName {
+    width: 248px;
+    height: 20px;
+    border: none;
+    text-indent: 5px;
+  }
+
+  #firstName:focus,
+  #lastName:focus,
+  #email:focus,
+  #phoneNumber:focus,
+  #day:focus,
+  #year:focus,
+  #month:focus,
+  #ssn {
+    outline: none;
+  }
+
+  #firstName::placeholder,
+  #lastName::placeholder,
+  #phoneNumber::placeholder,
+  #email::placeholder,
+  #ssn::placeholder,
+  input[type="number"]::placeholder {
+    color: rgba(191, 181, 181, 1);
+    font-size: 8px;
+  }
+
+  .id-information {
+    margin-top: 10px;
+    margin-left: 60px;
+  }
+
+  .contact,
+  .security {
+    margin-top: 10px;
+    margin-left: 60px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  #phoneNumber,
+  #email {
+    width: 248px;
+    height: 20px;
+    border: none;
+    border-radius: 0.2rem;
+    text-indent: 5px;
+  }
+
+  #ssn {
+    width: 248px;
+    height: 25px;
+    border: none;
+    border-radius: 0.2rem;
+    text-indent: 2vw;
+    border: 0.5px solid rgba(191, 181, 181, 1);
+  }
+
+  .phone-fieldset {
+    margin-top: 8px;
+  }
+
+  .birth h2 {
+    margin-top: 8px;
+    margin-left: 60px;
+    font-size: 10px;
+    color: rgb(150, 145, 145);
+  }
+
+  .date {
+    margin-top: 8px;
+    margin-left: 60px;
+    display: flex;
+    gap: 23px;
+  }
+
+  #day,
+  #year,
+  #month {
+    font-size: 8px;
+    border-radius: 0.2rem;
+    text-indent: 5px;
+    width: 39px;
+    height: 20px;
+    border: 0.2px solid rgba(191, 181, 181, 1);
+    /* padding-left: 1vw; */
+    display: flex;
+    align-items: center;
+    color: rgba(191, 181, 181, 1);
+  }
+
+  .bouton {
+    margin-top: 7px;
+    margin-left: 2.1vw;
+    width: 85%;
+    border: none;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  input[type="submit"] {
+    background: rgb(21, 161, 28);
+    width: 25px;
+    height: 25px;
+    border: none;
+    border-radius: 100%;
+    cursor: pointer;
+  }
+
+  input[type="number"] {
+    border: none;
+    border-radius: 0.2rem;
+    width: 39px;
+    height: 20px;
+    background-image: url("calendar.png");
+    background-position: right;
+    background-size: 8px;
+    background-repeat: no-repeat;
+    text-indent: 3px;
+    border-radius: 0.2rem;
+  }
+
+  input[type="number"]:focus {
+    outline: none;
+  }
+}
+
+/* ...............................................................................................................................................
+............................................... Taille de l'écran; [689,835]................................................................................................
+............................................................................................................................................... */
+
+@media screen and (min-width: 689px) and (max-width: 835px) {
+  section {
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(
+      109.31deg,
+      #6b31e5 3.9%,
+      #2f82cf 61.2%,
+      #2f82cf 68.35%,
+      #92bde6 76.79%,
+      #4bc7b0 83.39%
+    );
+  }
+
+  main {
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 650px;
+    margin: 0 auto;
+  }
+
+  .left-side {
+    border: none;
+    border-top-left-radius: 0.6rem;
+    border-bottom-left-radius: 0.6rem;
+    background: #3a2e55;
+    width: 200px;
+    height: 90vh;
+    padding: 25px;
+  }
+
+  .right-side {
+    border: none;
+    border-top-right-radius: 0.6rem;
+    border-bottom-right-radius: 0.6rem;
+    background: #fff;
+    width: 450px;
+    height: 90vh;
+    padding: 25px;
+  }
+
+  .left-item {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 0.5px solid rgb(155, 152, 152);
+    width: 100%;
+    height: 12%;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+  }
+
+  .circle {
+    border-radius: 100%;
+    font-weight: bold;
+    font-size: 1.5vw;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px solid transparent;
+    transition: 0.6s transform;
+    cursor: pointer;
+    color: rgb(128, 128, 190);
+    background: rgb(243, 239, 239);
+    align-self: center;
+  }
+
+  .circle1 {
+    border-radius: 100%;
+    font-weight: bold;
+    font-size: 1.5vw;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px solid transparent;
+    transition: 0.6s transform;
+    cursor: pointer;
+    color: #fff;
+    align-self: center;
+    background-color: rgb(21, 161, 28);
+  }
+
+  h3 {
+    color: white;
+    text-transform: capitalize;
+    font-weight: normal;
+    width: 140px;
+    height: 8.5vh;
+    align-items: center;
+    display: flex;
+    font-size: 13px;
+  }
+
+  .text-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  div .text-inform {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.2vw;
+    text-align: center;
+    width: 50%;
+    margin: 1vh 16vw;
+    font-weight: 600;
+    color: rgba(128, 122, 122, 1);
+  }
+
+  div .form-title {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 2vh 0vw;
+  }
+
+  fieldset {
+    border: 0.5px solid rgba(191, 181, 181, 1);
+    border-radius: 0.3rem;
+    width: fit-content;
+  }
+
+  legend {
+    color: rgb(150, 145, 145);
+    margin-left: 1.5vw;
+    font-weight: bold;
+    font-size: 0.8rem;
+  }
+
+  #firstName,
+  #lastName {
+    width: 180px;
+    height: 4.5vh;
+    border: none;
+    border-radius: 0.5rem;
+    text-indent: 2vw;
+  }
+
+  #firstName:focus,
+  #lastName:focus,
+  #email:focus,
+  #phoneNumber:focus,
+  #day:focus,
+  #year:focus,
+  #month:focus,
+  #ssn {
+    outline: none;
+  }
+
+  #firstName::placeholder,
+  #lastName::placeholder,
+  #phoneNumber::placeholder,
+  #email::placeholder,
+  #ssn::placeholder,
+  input[type="number"]::placeholder {
+    color: rgba(191, 181, 181, 1);
+  }
+
+  .id-information {
+    margin-top: 2vh;
+    margin-right: 2px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .contact,
+  .security {
+    margin-top: 3vh;
+    margin-left: 0.2vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  #phoneNumber,
+  #email {
+    width: 365px;
+    height: 5vh;
+    border: none;
+    border-radius: 0.5rem;
+    text-indent: 2vw;
+  }
+
+  #ssn {
+    width: 365px;
+    height: 6.5vh;
+    border: none;
+    border-radius: 0.3rem;
+    text-indent: 2vw;
+    border: 0.5px solid rgba(191, 181, 181, 1);
+  }
+
+  .phone-fieldset {
+    margin-top: 2vh;
+  }
+
+  .birth h2 {
+    margin-top: 4vh;
+    margin-left: 3.5vw;
+    font-size: 1rem;
+    color: rgb(150, 145, 145);
+  }
+
+  .date {
+    width: fit-content;
+    margin-top: 2vh;
+    margin-right: 7vw;
+    margin-left: 3.5vw;
+    display: flex;
+    gap: 23px;
+  }
+
+  #day,
+  #year,
+  #month {
+    border-radius: 0.2rem;
+    text-indent: 1.5vw;
+    width: 9.5vw;
+    height: 6.5vh;
+    border: 0.5px solid rgba(191, 181, 181, 1);
+    /* padding-left: 1vw; */
+    display: flex;
+    align-items: center;
+    color: rgba(191, 181, 181, 1);
+  }
+
+  .bouton {
+    margin-top: 4vh;
+    margin-left: 2.5vw;
+    width: 85%;
+    border: none;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  input[type="submit"] {
+    background: rgb(21, 161, 28);
+    width: 45px;
+    height: 45px;
+    border: none;
+    border-radius: 100%;
+    cursor: pointer;
+  }
+
+  select {
+    width: inherit;
+    border: none;
+  }
+
+  input[type="number"] {
+    border: none;
+    width: 92px;
+    height: 37px;
+    background-image: url("calendar.png");
+    background-position: right;
+    background-size: 15px;
+    background-repeat: no-repeat;
+    text-indent: 3px;
+  }
+
+  input[type="number"]:focus {
+    outline: none;
+  }
+}
+
+/* ...............................................................................................................................................
+........................................................Taille de l'écran; [836,950].................................................................................
+............................................................................................................................................... */
+
+@media screen and (min-width: 836px) and (max-width: 950px) {
+  section {
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(
+      109.31deg,
+      #6b31e5 3.9%,
+      #2f82cf 61.2%,
+      #2f82cf 68.35%,
+      #92bde6 76.79%,
+      #4bc7b0 83.39%
+    );
+  }
+
+  main {
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 750px;
+    margin: 0 auto;
+  }
+
+  .left-side {
+    border: none;
+    border-top-left-radius: 0.6rem;
+    border-bottom-left-radius: 0.6rem;
+    background: #3a2e55;
+    width: 200px;
+    height: 95vh;
+  }
+
+  .right-side {
+    border: none;
+    border-top-right-radius: 0.6rem;
+    border-bottom-right-radius: 0.6rem;
+    background: #fff;
+    width: 550px;
+    height: 95vh;
+  }
+
+  .left-item {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 0.5px solid rgb(155, 152, 152);
+    width: 100%;
+    height: 12%;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+  }
+
+  .circle {
+    border-radius: 100%;
+    font-weight: bold;
+    font-size: 1.5vw;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px solid transparent;
+    transition: 0.6s transform;
+    cursor: pointer;
+    color: rgb(128, 128, 190);
+    background: rgb(243, 239, 239);
+    align-self: center;
+  }
+
+  .circle1 {
+    border-radius: 100%;
+    font-weight: bold;
+    font-size: 1.5vw;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px solid transparent;
+    transition: 0.6s transform;
+    cursor: pointer;
+    color: #fff;
+    align-self: center;
+    background-color: rgb(21, 161, 28);
+  }
+
+  h3 {
+    color: white;
+    text-transform: capitalize;
+    font-weight: normal;
+    width: 140px;
+    height: 8.5vh;
+    align-items: center;
+    display: flex;
+    font-size: 13px;
+  }
+
+  .text-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  div .text-inform {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.2vw;
+    text-align: center;
+    width: 50%;
+    margin: 1vh 16vw;
+    font-weight: 600;
+    color: rgba(128, 122, 122, 1);
+  }
+
+  div .form-title {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 2vh 0vw;
+  }
+
+  fieldset {
+    border: 0.5px solid rgba(191, 181, 181, 1);
+    border-radius: 0.3rem;
+    width: fit-content;
+  }
+
+  legend {
+    color: rgb(150, 145, 145);
+    margin-left: 1.5vw;
+    font-weight: bold;
+    font-size: 0.8rem;
+  }
+
+  #firstName,
+  #lastName {
+    width: 220px;
+    height: 6.5vh;
+    border: none;
+    border-radius: 0.5rem;
+    text-indent: 2vw;
+  }
+
+  #firstName:focus,
+  #lastName:focus,
+  #email:focus,
+  #phoneNumber:focus,
+  #day:focus,
+  #year:focus,
+  #month:focus,
+  #ssn {
+    outline: none;
+  }
+
+  #firstName::placeholder,
+  #lastName::placeholder,
+  #phoneNumber::placeholder,
+  #email::placeholder,
+  #ssn::placeholder,
+  input[type="number"]::placeholder {
+    color: rgba(191, 181, 181, 1);
+  }
+
+  .id-information {
+    margin-top: 2vh;
+    margin-right: 2px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .contact,
+  .security {
+    margin-top: 3vh;
+    margin-left: 4.1vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  #phoneNumber,
+  #email {
+    width: 477px;
+    height: 6.5vh;
+    border: none;
+    border-radius: 0.5rem;
+    text-indent: 2vw;
+  }
+
+  #ssn {
+    width: 477px;
+    height: 7vh;
+    border: none;
+    border-radius: 0.3rem;
+    text-indent: 2vw;
+    border: 0.5px solid rgba(191, 181, 181, 1);
+  }
+
+  .phone-fieldset {
+    margin-top: 2vh;
+  }
+
+  .birth h2 {
+    margin-top: 4vh;
+    margin-left: 4.1vw;
+    font-size: 1rem;
+    color: rgb(150, 145, 145);
+  }
+
+  .date {
+    width: fit-content;
+    margin-top: 3vh;
+    margin-right: 7vw;
+    margin-left: 4.1vw;
+    display: flex;
+    gap: 23px;
+  }
+
+  #day,
+  #year,
+  #month {
+    border-radius: 0.2rem;
+    text-indent: 1.5vw;
+    width: 7.1vw;
+    height: 6.5vh;
+    border: 0.5px solid rgba(191, 181, 181, 1);
+    /* padding-left: 1vw; */
+    display: flex;
+    align-items: center;
+    color: rgba(191, 181, 181, 1);
+  }
+
+  .bouton {
+    margin-top: 4vh;
+    margin-left: 2.5vw;
+    width: 85%;
+    border: none;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  input[type="submit"] {
+    background: rgb(21, 161, 28);
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 100%;
+    cursor: pointer;
+  }
+
+  select {
+    width: inherit;
+    border: none;
+  }
+
+  input[type="number"] {
+    border: none;
+    width: 92px;
+    height: 37px;
+    background-image: url("calendar.png");
+    background-position: right;
+    background-size: 15px;
+    background-repeat: no-repeat;
+    text-indent: 3px;
+  }
+
+  input[type="number"]:focus {
+    outline: none;
+  }
+}
+
+/* ...............................................................................................................................................
+........................................................Taille de l'écran; [951,1023].................................................................................
+............................................................................................................................................... */
+@media screen and (min-width: 951px) and (max-width: 1023px) {
+  section {
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(
+      109.31deg,
+      #6b31e5 3.9%,
+      #2f82cf 61.2%,
+      #2f82cf 68.35%,
+      #92bde6 76.79%,
+      #4bc7b0 83.39%
+    );
+  }
+
+  main {
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 850px;
+    margin: 0 auto;
+  }
+
+  .left-side {
+    border: none;
+    border-top-left-radius: 0.6rem;
+    border-bottom-left-radius: 0.6rem;
+    background: #3a2e55;
+    width: 255px;
+    height: 95vh;
+  }
+
+  .right-side {
+    border: none;
+    border-top-right-radius: 0.6rem;
+    border-bottom-right-radius: 0.6rem;
+    background: #fff;
+    width: 645px;
+    height: 95vh;
+  }
+
+  .left-item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 0.5px solid rgb(155, 152, 152);
+    width: 100%;
+    height: 12%;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+  }
+
+  .circle {
+    border-radius: 100%;
+    font-weight: bold;
+    font-size: 1.5vw;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px solid transparent;
+    transition: 0.6s transform;
+    cursor: pointer;
+    color: rgb(128, 128, 190);
+    background: rgb(243, 239, 239);
+    align-self: center;
+  }
+
+  .circle1 {
+    border-radius: 100%;
+    font-weight: bold;
+    font-size: 1.5vw;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px solid transparent;
+    transition: 0.6s transform;
+    cursor: pointer;
+    color: #fff;
+    align-self: center;
+    background-color: rgb(21, 161, 28);
+  }
+
+  h3 {
+    color: white;
+    text-transform: capitalize;
+    font-weight: normal;
+    width: 160px;
+    height: 8.5vh;
+    align-items: center;
+    display: flex;
+    font-size: 15px;
+  }
+
+  .text-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  div .text-inform {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.05vw;
+    text-align: center;
+    width: 50%;
+    margin: 1vh 14vw;
+    font-weight: 600;
+    color: rgba(128, 122, 122, 1);
+  }
+
+  div .form-title {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 2vh 0vw;
+  }
+
+  fieldset {
+    border: 0.5px solid rgba(191, 181, 181, 1);
+    border-radius: 0.3rem;
+    width: fit-content;
+  }
+
+  legend {
+    color: rgb(150, 145, 145);
+    margin-left: 1.5vw;
+    font-weight: bold;
+    font-size: 0.8rem;
+  }
+
+  #firstName,
+  #lastName {
+    width: 249px;
+    height: 6.5vh;
+    border: none;
+    border-radius: 0.5rem;
+    text-indent: 2vw;
+  }
+
+  #firstName:focus,
+  #lastName:focus,
+  #email:focus,
+  #phoneNumber:focus,
+  #day:focus,
+  #year:focus,
+  #month:focus,
+  #ssn {
+    outline: none;
+  }
+
+  #firstName::placeholder,
+  #lastName::placeholder,
+  #phoneNumber::placeholder,
+  #email::placeholder,
+  #ssn::placeholder,
+  input[type="number"]::placeholder {
+    color: rgba(191, 181, 181, 1);
+  }
+
+  .id-information {
+    margin-top: 2vh;
+    margin-right: 2px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .contact,
+  .security {
+    margin-top: 3vh;
+    margin-left: 3.3vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  #phoneNumber,
+  #email {
+    width: 538px;
+    height: 6.5vh;
+    border: none;
+    border-radius: 0.5rem;
+    text-indent: 2vw;
+  }
+
+  #ssn {
+    width: 538px;
+    height: 7vh;
+    border: none;
+    border-radius: 0.3rem;
+    text-indent: 2vw;
+    border: 0.5px solid rgba(191, 181, 181, 1);
+  }
+
+  .phone-fieldset {
+    margin-top: 2vh;
+  }
+
+  .birth h2 {
+    margin-top: 4vh;
+    margin-left: 3.3vw;
+    font-size: 1rem;
+    color: rgb(150, 145, 145);
+  }
+
+  .date {
+    margin-top: 3vh;
+    margin-right: 7vw;
+    margin-left: 3.3vw;
+    display: flex;
+    gap: 23px;
+  }
+
+  #day,
+  #year,
+  #month {
+    border-radius: 0.2rem;
+    text-indent: 1.5vw;
+    width: 7vw;
+    height: 6.5vh;
+    border: 0.5px solid rgba(191, 181, 181, 1);
+    /* padding-left: 1vw; */
+    display: flex;
+    align-items: center;
+    color: rgba(191, 181, 181, 1);
+  }
+
+  .bouton {
+    margin-top: 4vh;
+    margin-left: 2.5vw;
+    width: 85%;
+    border: none;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  input[type="submit"] {
+    background: rgb(21, 161, 28);
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 100%;
+    cursor: pointer;
+  }
+
+  select {
+    width: inherit;
+    border: none;
+  }
+
+  input[type="number"] {
+    border: none;
+    width: 92px;
+    height: 37px;
+    background-image: url("calendar.png");
+    background-position: right;
+    background-size: 15px;
+    background-repeat: no-repeat;
+    text-indent: 3px;
+  }
+
+  input[type="number"]:focus {
+    outline: none;
+  }
+}
