@@ -152,6 +152,7 @@
     height: 20px;
     border: none;
     text-indent: 5px;
+    font-size:10px;
   }
 
   #firstName:focus,
@@ -196,6 +197,7 @@
     border: none;
     border-radius: 0.2rem;
     text-indent: 5px;
+    font-size:10px;
   }
 
   #ssn {
@@ -204,6 +206,7 @@
     border: none;
     border-radius: 0.2rem;
     text-indent: 2vw;
+    font-size:10px;
     border: 0.5px solid rgba(191, 181, 181, 1);
   }
 
@@ -219,6 +222,7 @@
   }
 
   .date {
+    font-size:10px;
     margin-top: 8px;
     margin-right: 40px;
     display: flex;
